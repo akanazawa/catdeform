@@ -3,12 +3,12 @@
 A Matlab implementation of the paper ["Learning 3D Deformation of Animals from 2D Image"](http://www.umiacs.umd.edu/~kanazawa/papers/cat_eg2016.pdf)
 
 ## Steps
-0. Clone this repository TODO
+0. Get this repo: `git clone git@github.com:akanazawa/catdeform.git`
 1. Download data from
    [this link](http://www.umiacs.umd.edu/~kanazawa/code/catdeform_data.tar.gz),  it contains the 10 images of horses and cats
    along with their annotations. 
 2. Download toolbox from [this link](http://www.umiacs.umd.edu/~kanazawa/code/catdeform_toolboxes.tar.gz)
-3. Put `data/` and `toolbox/` in the project root so it is in the same directory
+3. Untar them, put `data/` and `toolbox/` in the project root so it is in the same directory
    as this README.md
 4. Make sure you have the dependencies as specified below & change the path in
    `code/initialize.m` accordingly
