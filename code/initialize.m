@@ -21,10 +21,6 @@ if isempty(whos('global','path_def')),
     addpath(genpath(['../toolboxes/misc']));
     addpath(genpath(['../toolboxes/export_fig']));
 
-    %% SCS solver
-    addpath(genpath(['../../scs/matlab']));
-
-    
     addpath('mesh');
     addpath(genpath('util'));
     addpath('param');
